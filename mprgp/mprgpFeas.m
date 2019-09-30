@@ -4,12 +4,12 @@ function [afeas] = mprgpFeas(x,p,mprgpctx)
       afeas = Inf;
       for i=1:length(x)
         %if (p(i) > mprgpctx.settol)
-        if (p(i) > 0 && mprgpctx.lb > -Inf)
+        if (p(i) > 0 & mprgpctx.lb > -Inf)
           af = bounddiffl(i)/p(i);
           if af < afeas
             afeas = af;
           end
-        elseif (p(i) < 0 && mprgpctx.ub < Inf)
+        elseif (p(i) < 0 & mprgpctx.ub < Inf)
           af = bounddiffu(i)/p(i);
           if af < afeas
             afeas = af;

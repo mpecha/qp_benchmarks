@@ -12,7 +12,7 @@ function [x,flg,k,iter] = mprgp(A,b,x,tol,maxit,mprgpctx)
 
   k = [0 0 0 0]; %Hessian, CG, Exp, Prop
   iter = 0;
-  if  !exist("mrpgpctx.abar","var")
+  if  ~exist('mrpgpctx.abar', 'var')
     mprgpctx.abar = mprgpctx.abarmult/eigs(A,1);
   end
   x = mprgpProj(x,mprgpctx); % project to feasible set
