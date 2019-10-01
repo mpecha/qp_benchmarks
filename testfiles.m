@@ -19,9 +19,10 @@ for i = 1:size(files,1)
     mprgpctx.ub = ones(size(Problem.lb,1),1)*Inf;
   end
   atol = rtol*norm(Problem.b);
+  matvec = @(x) Problem.A*x;
   
   tic;
-  [x,flg,k] = mprgp(Problem.A,Problem.b,zeros(size(Problem.A,1),1),atol,30000,mprgpctx);
+  [x,flg,k] = mprgp(matvec,Problem.b,zeros(size(Problem.A,1),1),atol,30000,mprgpctx);
   elapsed = toc;
   fprintf('%s; %d; %d; %d; %d; %d; %e\n',files(i,:),flg,k(1),k(2),k(3),k(4),elapsed);
 end

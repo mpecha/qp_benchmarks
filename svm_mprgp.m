@@ -25,6 +25,7 @@ for d = 1:size(datasets,1)
     
     % Hessian
     A = Y * X * X' * Y';
+    matvec = @(x) A*x;
     % RHS
     b = ones(size(y, 1), 1);
     % Initial guess
@@ -44,7 +45,7 @@ for d = 1:size(datasets,1)
 
         % training
         tic;
-        [x, flg, k] = mprgp(A, b, x_init, atol, 10000, mprgpctx);
+        [x, flg, k] = mprgp(matvec, b, x_init, atol, 10000, mprgpctx);
         elapsed = toc;
         fprintf('%d; %d; %d; %d; %d; %e\n', flg, k(1), k(2), k(3), k(4), elapsed);
         
@@ -60,6 +61,7 @@ for d = 1:size(datasets,1)
     for k = 1:length(C)
         mprgpctx.ub = Inf * ones(size(y, 1), 1);
         A_reg = A + 1 / C{k} * eye(size(y, 1));
+        matvec = @(x) A_reg*x;
 
         % training
         tic;
