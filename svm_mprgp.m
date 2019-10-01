@@ -8,7 +8,7 @@ mprgpctx.propConst = 1;
 mprgpctx.settol = 10*eps;
 rtol = 1e-1;
 
-datasets = ['mushrooms', 'phishing'];
+datasets = ["mushrooms"; "phishing"];
 C = {1, 5, 10, 50, 100};
 
 for d = 1:size(datasets,1)

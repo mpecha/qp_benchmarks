@@ -5,10 +5,10 @@ mprgpctx.propConst = 1;
 mprgpctx.settol = 10*eps;
 rtol = 1e-6;
 
-files = ['ex1_100';'ex2_100';'jbearing2_50_50';];
-%files = ['ex1_100';'ex1_1000';'ex1_5000';
-%          'ex2_100';'ex2_1000';'ex2_5000';
-%          'jbearing2_50_50';'jbearing2_100_100';'jbearing2_200_50';'jbearing2_400_25'];
+files = ["ex1_100";"ex2_100";"jbearing2_50_50"];
+%files = ["ex1_100";"ex1_1000";"ex1_5000";
+%          "ex2_100";"ex2_1000';'ex2_5000';
+%          "jbearing2_50_50";"jbearing2_100_100";"jbearing2_200_50";"jbearing2_400_25"];
 for i = 1:size(files,1)
   load(strcat('problems/',files(i,:),'.mat'))
   
