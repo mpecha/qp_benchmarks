@@ -21,6 +21,9 @@ function [x,flg,k,iter] = mprgp(matvec,b,x,tol,maxit,mprgpctx)
   p = gf;
   flg = solved(norm(gf+gc),tol);
   while ~flg && iter < maxit
+  norm(gf)
+  norm(gc)
+  norm(gf+gc)
     if gc'*gc <= mprgpctx.propConst^2 *gr'*gf % proportional
       Ap = matvec(p); k = k + [1 0 0 0];
       pAp = p'*Ap;

@@ -48,6 +48,10 @@ for d = 1:size(datasets,1)
         [x, flg, k] = mprgp(matvec, b, x_init, atol, 10000, mprgpctx);
         elapsed = toc;
         fprintf('%d; %d; %d; %d; %d; %e\n', flg, k(1), k(2), k(3), k(4), elapsed);
+        tic;
+        [x, flg, k] = mprgp2(matvec, b, x_init, atol, 10000, mprgpctx);
+        elapsed = toc;
+        fprintf('%d; %d; %d; %d; %d; %e\n', flg, k(1), k(2), k(3), k(4), elapsed);
         
         % reconstruction of normal vector
         w = X' * Y * x;
@@ -66,6 +70,10 @@ for d = 1:size(datasets,1)
         % training
         tic;
         [x, flg, k] = mprgp(A_reg, b, x_init, atol, 10000, mprgpctx);
+        elapsed = toc;
+        fprintf('%d; %d; %d; %d; %d; %e\n', flg, k(1), k(2), k(3), k(4), elapsed);
+        tic;
+        [x, flg, k] = mprgp2(A_reg, b, x_init, atol, 10000, mprgpctx);
         elapsed = toc;
         fprintf('%d; %d; %d; %d; %d; %e\n', flg, k(1), k(2), k(3), k(4), elapsed);
 
