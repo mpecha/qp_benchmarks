@@ -8,13 +8,12 @@ rtol = 1e-6;
 maxit = 30000;
 
 files = ["ex1_100";"ex2_100";"jbearing2_50_50"];
-files = []
 %files = ["ex1_100";"ex1_1000";"ex1_5000";
 %          "ex2_100";"ex2_1000';'ex2_5000';
 %          "jbearing2_50_50";"jbearing2_100_100";"jbearing2_200_50";"jbearing2_400_25"];
 
 
-fprintf('File; Solved; nHess; nCG; nExp; nProp; Time\n');
+fprintf('File; Alg; Solved; nHess; nCG; nExp; nProp; Time\n');
 
 for i = 1:size(files,1)
   load(strcat('problems/',files(i,:),'.mat'))
@@ -31,7 +30,11 @@ for i = 1:size(files,1)
   tic;
   [x,flg,k] = mprgp(matvec,Problem.b,zeros(size(Problem.A,1),1),atol,maxit,mprgpctx);
   elapsed = toc;
-  fprintf('%s; %d; %d; %d; %d; %d; %e\n',files(i,:),flg,k(1),k(2),k(3),k(4),elapsed);
+  fprintf('%s; MPRGP; %d; %d; %d; %d; %d; %e\n',files(i,:),flg,k(1),k(2),k(3),k(4),elapsed);
+  tic;
+  [x,flg,k] = mprgp2(matvec,Problem.b,zeros(size(Problem.A,1),1),atol,maxit,mprgpctx);
+  elapsed = toc;
+  fprintf('%s; MPRGPp; %d; %d; %d; %d; %d; %e\n',files(i,:),flg,k(1),k(2),k(3),k(4),elapsed);
 end
 
 % BQP problem
@@ -53,7 +56,11 @@ for i = 1:size(bqp_dirs,1)
     tic;
     [x,flg,k] = mprgp(matvec,c,x0,atol,maxit,mprgpctx);
     elapsed = toc;
-    fprintf('%s; %d; %d; %d; %d; %d; %e\n',strcat('BQP',num2str(j)),flg,k(1),k(2),k(3),k(4),elapsed);
+    fprintf('%s; MPRGP; %d; %d; %d; %d; %d; %e\n',strcat('BQP',num2str(j)),flg,k(1),k(2),k(3),k(4),elapsed);
+    tic;
+    [x2,flg,k] = mprgp2(matvec,c,x0,atol,maxit,mprgpctx);
+    elapsed = toc;
+    fprintf('%s; MPRGPp; %d; %d; %d; %d; %d; %e\n',strcat('BQP',num2str(j)),flg,k(1),k(2),k(3),k(4),elapsed);
   end
 end
   
