@@ -110,7 +110,7 @@ times = zeros(1,maxit+1);
 
 
 rho = alphaini;
-g = A*x - b; nhprod = nhprod + 1;
+g = A(x) - b; nhprod = nhprod + 1;
 %%%% initial check of KKT
 if stopcrit == 2
     phi0 = g;%.*(x~=lb & x~=ub) + min(0,g).*(x==lb)+ max(0,g).*(x==ub);
@@ -163,7 +163,7 @@ while loop
     alpha = 1;
     gf = g'*d;
     %  xnew = x + alpha*d;
-    gnew = A*xnew - b; nhprod = nhprod + 1;
+    gnew = A(xnew) - b; nhprod = nhprod + 1;
     fnew = 0.5*(gnew-b)'*xnew;
     infosearch = 1;
     while alpha > eps*norm(d)
@@ -173,7 +173,7 @@ while loop
             %  pause
             alpha = alpha * beta;
             xnew = x + alpha*d;
-            gnew = A*xnew - b; nhprod = nhprod + 1;
+            gnew = A(xnew) - b; nhprod = nhprod + 1;
             fnew = 0.5*(gnew - b)'*xnew;
         else
             infosearch=0;
