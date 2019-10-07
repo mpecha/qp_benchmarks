@@ -13,7 +13,10 @@ function [x,flg,k,iter] = mprgp(matvec,b,x,tol,maxit,mprgpctx)
   k = [0 0 0 0]; %Hessian, CG, Exp, Prop
   iter = 0;
   if  ~exist('mrpgpctx.abar', 'var')
-    mprgpctx.abar = mprgpctx.abarmult/eigs(matvec,length(b),1);
+    %mprgpctx.abar = mprgpctx.abarmult/eigs(matvec,length(b),1);
+    [mprgpctx.abar,iters] = powerMethod(matvec,ones(length(b),1),1e-4,50);
+    mprgpctx.abar = mprgpctx.abarmult*mprgpctx.abar;
+    k = k + [iters 0 0 0];
   end
   x = mprgpProj(x,mprgpctx); % project to feasible set
   g = matvec(x) - b; k = k + [1 0 0 0];
