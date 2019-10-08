@@ -144,7 +144,6 @@ while loop
     vetrho(1:Mrho-1) = vetrho(2:Mrho);
     %%% descent direction
     d = min(max(x- rho*g,lb),ub); nproj = nproj + 1;
-    xnew = d;
     d = d - x;
     
     if norm(d,inf) < epsi
@@ -162,8 +161,9 @@ while loop
     % nonmonotone linesearch GLL
     alpha = 1;
     gf = g'*d;
-    %  xnew = x + alpha*d;
-    gnew = A(xnew) - b; nhprod = nhprod + 1;
+    xnew = x + alpha*d;
+    Ad = A(d);  nhprod = nhprod + 1;
+    gnew = g + alpha*Ad;
     fnew = 0.5*(gnew-b)'*xnew;
     infosearch = 1;
     while alpha > eps*norm(d)
@@ -173,7 +173,7 @@ while loop
             %  pause
             alpha = alpha * beta;
             xnew = x + alpha*d;
-            gnew = A(xnew) - b; nhprod = nhprod + 1;
+            gnew = g + alpha*Ad;
             fnew = 0.5*(gnew - b)'*xnew;
         else
             infosearch=0;
