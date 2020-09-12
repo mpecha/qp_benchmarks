@@ -1,19 +1,19 @@
 function [afeas] = mprgpFeas(x,p,mprgpctx)
-      bounddiffl = x - mprgpctx.lb;
-      bounddiffu = x - mprgpctx.ub;
-      afeas = Inf;
-      for i=1:length(x)
-        %if (p(i) > mprgpctx.settol)
-        if (p(i) > 0 && mprgpctx.lb(i) > -Inf)
-          af = bounddiffl(i)/p(i);
-          if af < afeas
-            afeas = af;
+      alpha_f1 = inf;
+      if ~isempty(mprgpctx.lb)
+          i = find(p > 0);
+          if min(size(i)) > 0
+              alpha_f1 = min((x(i)-mprgpctx.lb(i))./p(i));
           end
-        elseif (p(i) < 0 && mprgpctx.ub(i) < Inf)
-          af = bounddiffu(i)/p(i);
-          if af < afeas
-            afeas = af;
-          end
-        end
       end
+
+      alpha_f2 = inf;
+      if ~isempty(mprgpctx.ub)
+          j = find(p < 0);
+          if min(size(j)) > 0
+              alpha_f2 = min((x(j)-mprgpctx.ub(j))./p(j));
+          end
+      end
+
+      afeas = min(alpha_f1,alpha_f2);
 end

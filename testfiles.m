@@ -1,11 +1,11 @@
 addpath('mprgp')
 addpath('utils')
 
-mprgpctx.abarmult = 2;
+mprgpctx.abarmult = 1.9;
 mprgpctx.propConst = 1;
 mprgpctx.settol = 10*eps;
 rtol = 1e-6;
-maxit = 30000;
+maxit = 40000;
 
 files = ["ex1_100";"ex2_100";"jbearing2_50_50"];
 %files = ["ex1_100";"ex1_1000";"ex1_5000";

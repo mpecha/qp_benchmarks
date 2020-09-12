@@ -3,7 +3,7 @@ clear ALL;
 addpath('mprgp')
 addpath('problems/svm')
 
-mprgpctx.abarmult = 2;
+mprgpctx.abarmult = 1.9;
 mprgpctx.propConst = 1;
 mprgpctx.settol = 10*eps;
 rtol = 1e-1;
