@@ -147,7 +147,7 @@ while loop
     d = d - x;
     
     if norm(d,inf) < epsi
-        info = 0;
+        info = 2;
         break
     end
     
