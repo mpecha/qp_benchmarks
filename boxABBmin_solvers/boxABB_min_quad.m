@@ -185,6 +185,10 @@ while loop
     
     if infosearch>0
         fprintf(' \n bad behaviour in armijo: alpha<=eps*s %g  %g\n ',alpha,eps*norm(d));
+        alpha = eps;
+        xnew = x + alpha*d;
+        gnew = g + alpha*Ad;
+        fnew = 0.5*(gnew - b)'*xnew;
     end
     
     if alpha < 1
