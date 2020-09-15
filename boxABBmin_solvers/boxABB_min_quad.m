@@ -33,7 +33,7 @@ verb = 0;              % 0 -> silent
 stopcrit = 1;          % 1 -> norm(d,inf) <= tol
 errcrit  = 0;          % 0 -> the exact solution is unknown
 saveoption = 0;        % 0 -> save steplengths and function values
-
+threshold = 10*eps;
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Read the optional parameters
@@ -238,8 +238,10 @@ while loop
         tau = tau*factor;
     end
     
-    phi = g.*(x~=lb & x~=ub) + min(0,g).*(x==lb)+ max(0,g).*(x==ub);
-    normphi=norm(phi);
+%     
+    gf = g.*(~(abs(x-lb)<=threshold | abs(x-ub)<=threshold)); 
+    phi = gf + min(0,g).*(x==lb)+ max(0,g).*(x==ub);
+    normphi = norm(phi);
     if verb>1
         fprintf('%d) norm(d)=%g rho=%g normKKT=%g', i, norm(d,inf),rho,normphi );
         if errcrit
