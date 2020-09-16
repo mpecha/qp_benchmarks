@@ -8,7 +8,7 @@ addpath('boxABBmin_solvers')
 addpath('problems/svm')
 
 % MPRGP parameters
-mprgpctx.abarmult = 1.9;%1.95;
+mprgpctx.abarmult = 1.95;
 mprgpctx.propConst = 1;
 mprgpctx.settol = 10*eps;
 
@@ -48,9 +48,9 @@ for d = 1:size(datasets,1)
     A = Y * X * X' * Y';
     matvec = @(x) A*x;
     % RHS
-    b = ones(size(y, 2), 1);
+    b = ones(size(y, 1), 1);
     % Initial guess
-    x_init = zeros(size(y,2),1);
+    x_init = zeros(size(y,1),1);
     
     % absolute tolerance
     atol = rtol*norm(b);
