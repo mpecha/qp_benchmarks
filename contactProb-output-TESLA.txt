@@ -1,0 +1,153 @@
+File ex1_100
+Alg;	 Solved;	 nHess;	 nCG;	 nExp;	 nProp;	 Time
+MPRGP;	 1;	 186;	 134;	 17;	 7;	 0.115239
+size of final active set = 14
+Alg;	 Solved;	 nHess;	 nCG;	 nExp;	 nProp;	 Time
+MPRGPp;	 1;	 164;	 123;	 14;	 12;	 0.030436
+size of final active set = 14
+Alg:			 info	   nHess	  nProj	  nBack  nIter	  Time
+BoxVABBmin  0	 209	   209	   10	  208	 0.073578
+size of final active set = 14
+
+|x1-x2|_inf = 8.70621e-06
+|x1-x3|_inf = 1.07977e-05
+|x2-x3|_inf = 1.56669e-05
+
+File ex1_1000
+Alg;	 Solved;	 nHess;	 nCG;	 nExp;	 nProp;	 Time
+MPRGP;	 1;	 3250;	 2787;	 191;	 70;	 0.647871
+size of final active set = 109
+Alg;	 Solved;	 nHess;	 nCG;	 nExp;	 nProp;	 Time
+MPRGPp;	 1;	 3037;	 2702;	 133;	 68;	 0.428203
+size of final active set = 109
+Alg:			 info	   nHess	  nProj	  nBack  nIter	  Time
+BoxVABBmin  2	 2634	   2635	   178	  2633	 0.373007
+size of final active set = 109
+
+|x1-x2|_inf = 1.1239e-05
+|x1-x3|_inf = 0.000175999
+|x2-x3|_inf = 0.000177672
+
+File ex1_5000
+Alg;	 Solved;	 nHess;	 nCG;	 nExp;	 nProp;	 Time
+MPRGP;	 0;	 31641;	 27715;	 1630;	 655;	 17.3661
+size of final active set = 523
+Alg;	 Solved;	 nHess;	 nCG;	 nExp;	 nProp;	 Time
+MPRGPp;	 1;	 27372;	 24490;	 1101;	 679;	 14.3138
+size of final active set = 526
+Alg:			 info	   nHess	  nProj	  nBack  nIter	  Time
+BoxVABBmin  2	 22285	   22286	   1393	  22284	 8.2623
+size of final active set = 515
+
+|x1-x2|_inf = 0.00452455
+|x1-x3|_inf = 0.00602014
+|x2-x3|_inf = 0.0105379
+
+File ex2_100
+Alg;	 Solved;	 nHess;	 nCG;	 nExp;	 nProp;	 Time
+MPRGP;	 1;	 241;	 193;	 14;	 9;	 0.120073
+size of final active set = 7
+Alg;	 Solved;	 nHess;	 nCG;	 nExp;	 nProp;	 Time
+MPRGPp;	 1;	 200;	 168;	 10;	 11;	 0.033139
+size of final active set = 7
+Alg:			 info	   nHess	  nProj	  nBack  nIter	  Time
+BoxVABBmin  0	 276	   276	   17	  275	 0.077031
+size of final active set = 7
+
+|x1-x2|_inf = 9.55922e-06
+|x1-x3|_inf = 3.83846e-05
+|x2-x3|_inf = 4.31896e-05
+
+File ex2_1000
+Alg;	 Solved;	 nHess;	 nCG;	 nExp;	 nProp;	 Time
+MPRGP;	 1;	 3143;	 2812;	 123;	 74;	 0.610169
+size of final active set = 37
+Alg;	 Solved;	 nHess;	 nCG;	 nExp;	 nProp;	 Time
+MPRGPp;	 1;	 3366;	 2996;	 126;	 117;	 0.479491
+size of final active set = 37
+Alg:			 info	   nHess	  nProj	  nBack  nIter	  Time
+BoxVABBmin  2	 3325	   3326	   204	  3324	 0.46064
+size of final active set = 37
+
+|x1-x2|_inf = 5.3763e-06
+|x1-x3|_inf = 0.000662549
+|x2-x3|_inf = 0.000662497
+
+File ex2_5000
+Alg;	 Solved;	 nHess;	 nCG;	 nExp;	 nProp;	 Time
+MPRGP;	 1;	 18224;	 16065;	 809;	 530;	 10.1629
+size of final active set = 171
+Alg;	 Solved;	 nHess;	 nCG;	 nExp;	 nProp;	 Time
+MPRGPp;	 1;	 16291;	 14922;	 476;	 416;	 9.04966
+size of final active set = 171
+Alg:			 info	   nHess	  nProj	  nBack  nIter	  Time
+BoxVABBmin  1	 30001	   30001	   1958	  30000	 11.6914
+size of final active set = 167
+
+|x1-x2|_inf = 3.54703e-06
+|x1-x3|_inf = 0.0266144
+|x2-x3|_inf = 0.0266126
+
+
+
+File jbearing2_50_50
+Alg;	 Solved;	 nHess;	 nCG;	 nExp;	 nProp;	 Time
+MPRGP;	 1;	 154;	 128;	 2;	 11;	 0.142579
+size of final active set = 824
+Alg;	 Solved;	 nHess;	 nCG;	 nExp;	 nProp;	 Time
+MPRGPp;	 1;	 142;	 126;	 2;	 11;	 0.062832
+size of final active set = 824
+Alg:			 info	   nHess	  nProj	  nBack  nIter	  Time
+BoxVABBmin  0	 165	   165	   8	  164	 0.106062
+size of final active set = 824
+
+|x1-x2|_inf = 1.87375e-06
+|x1-x3|_inf = 9.29225e-06
+|x2-x3|_inf = 8.06876e-06
+
+File jbearing2_100_100
+Alg;	 Solved;	 nHess;	 nCG;	 nExp;	 nProp;	 Time
+MPRGP;	 1;	 351;	 285;	 17;	 21;	 0.452424
+size of final active set = 3232
+Alg;	 Solved;	 nHess;	 nCG;	 nExp;	 nProp;	 Time
+MPRGPp;	 1;	 334;	 286;	 13;	 21;	 0.346993
+size of final active set = 3232
+Alg:			 info	   nHess	  nProj	  nBack  nIter	  Time
+BoxVABBmin  0	 353	   353	   23	  352	 0.277768
+size of final active set = 3232
+
+|x1-x2|_inf = 3.20073e-06
+|x1-x3|_inf = 8.3105e-06
+|x2-x3|_inf = 1.04522e-05
+
+
+
+File jbearing2_200_50
+Alg;	 Solved;	 nHess;	 nCG;	 nExp;	 nProp;	 Time
+MPRGP;	 1;	 661;	 557;	 26;	 41;	 0.796859
+size of final active set = 3214
+Alg;	 Solved;	 nHess;	 nCG;	 nExp;	 nProp;	 Time
+MPRGPp;	 1;	 622;	 537;	 22;	 40;	 0.638695
+size of final active set = 3214
+Alg:			 info	   nHess	  nProj	  nBack  nIter	  Time
+BoxVABBmin  2	 781	   782	   36	  780	 0.561209
+size of final active set = 3214
+
+|x1-x2|_inf = 4.07899e-06
+|x1-x3|_inf = 3.07726e-05
+|x2-x3|_inf = 3.2009e-05
+
+File jbearing2_400_25
+Alg;	 Solved;	 nHess;	 nCG;	 nExp;	 nProp;	 Time
+MPRGP;	 1;	 1296;	 1151;	 27;	 80;	 1.6682
+size of final active set = 3195
+Alg;	 Solved;	 nHess;	 nCG;	 nExp;	 nProp;	 Time
+MPRGPp;	 1;	 1352;	 1212;	 30;	 79;	 1.34058
+size of final active set = 3195
+Alg:			 info	   nHess	  nProj	  nBack  nIter	  Time
+BoxVABBmin  2	 1277	   1278	   65	  1276	 0.90362
+size of final active set = 3197
+
+|x1-x2|_inf = 1.87969e-06
+|x1-x3|_inf = 0.0001048
+|x2-x3|_inf = 0.000106497
