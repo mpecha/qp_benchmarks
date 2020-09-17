@@ -265,17 +265,7 @@ while loop
             loop = (normphi > tol*normphi0)& (i< maxit);
             if verb>0
                 fprintf('it=%d norm(phi)/norm(phi0)=%g \n',i, norm(phi)/normphi0);
-            end
-       case 3
-            if errcrit
-            loop = (err(i+1) > tol) & (i< maxit);
-             if verb>0
-                 fprintf('it=%d err=%g \n',i, err(i+1));
-             end
-            else
-                error('Missing solution for computing relative error!')
-            end
-     
+            end  
     end
     
     info = 0;
