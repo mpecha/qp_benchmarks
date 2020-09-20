@@ -1,0 +1,1087 @@
+PROBLEMS' DIMENSION: 15000
+
+BQP1
+Alg;	 Solved;	 nHess;	 nCG;	 nExp;	 nProp;	 Time
+MPRGP;	 1;	 1705;	 314;	 688;	 4;	 2.91636
+Relative error on the solution =6.691467e-02
+MPRGPp;	 1;	 714;	 249;	 228;	 8;	 1.04175
+Relative error on the solution =6.314550e-02
+Alg:	 info	   nHess	  nProj	  nBack  nIter	  Time
+BoxVABBmin	 0  198	   198	   14	  197	 0.29652
+Relative error on the solution =9.087956e-02
+
+BQP2
+Alg;	 Solved;	 nHess;	 nCG;	 nExp;	 nProp;	 Time
+MPRGP;	 1;	 3186;	 143;	 1515;	 2;	 4.18474
+Relative error on the solution =9.271995e-02
+MPRGPp;	 1;	 799;	 103;	 345;	 5;	 0.861661
+Relative error on the solution =8.118914e-02
+Alg:	 info	   nHess	  nProj	  nBack  nIter	  Time
+BoxVABBmin	 0  227	   227	   10	  226	 0.252276
+Relative error on the solution =7.822728e-02
+
+BQP3
+Alg;	 Solved;	 nHess;	 nCG;	 nExp;	 nProp;	 Time
+MPRGP;	 1;	 3733;	 18;	 1851;	 2;	 4.06098
+Relative error on the solution =7.541332e-02
+MPRGPp;	 1;	 1268;	 88;	 588;	 3;	 1.31807
+Relative error on the solution =3.723882e-02
+Alg:	 info	   nHess	  nProj	  nBack  nIter	  Time
+BoxVABBmin	 0  219	   219	   8	  218	 0.245712
+Relative error on the solution =3.303282e-02
+
+BQP4
+Alg;	 Solved;	 nHess;	 nCG;	 nExp;	 nProp;	 Time
+MPRGP;	 1;	 1697;	 346;	 667;	 6;	 2.48748
+Relative error on the solution =3.473876e-01
+MPRGPp;	 1;	 765;	 180;	 287;	 10;	 1.07617
+Relative error on the solution =2.962761e-01
+Alg:	 info	   nHess	  nProj	  nBack  nIter	  Time
+BoxVABBmin	 0  249	   249	   14	  248	 0.280918
+Relative error on the solution =3.178592e-01
+
+BQP5
+Alg;	 Solved;	 nHess;	 nCG;	 nExp;	 nProp;	 Time
+MPRGP;	 1;	 3387;	 324;	 1524;	 4;	 4.85327
+Relative error on the solution =3.301210e-01
+MPRGPp;	 1;	 992;	 177;	 406;	 2;	 1.40114
+Relative error on the solution =2.909220e-01
+Alg:	 info	   nHess	  nProj	  nBack  nIter	  Time
+BoxVABBmin	 0  212	   212	   10	  211	 0.257375
+Relative error on the solution =3.436876e-01
+
+BQP6
+Alg;	 Solved;	 nHess;	 nCG;	 nExp;	 nProp;	 Time
+MPRGP;	 1;	 5342;	 298;	 2516;	 1;	 7.22557
+Relative error on the solution =2.893416e-01
+MPRGPp;	 1;	 1461;	 181;	 639;	 1;	 1.78308
+Relative error on the solution =2.534319e-01
+Alg:	 info	   nHess	  nProj	  nBack  nIter	  Time
+BoxVABBmin	 0  254	   254	   9	  253	 0.285565
+Relative error on the solution =3.004467e-01
+
+BQP7
+Alg;	 Solved;	 nHess;	 nCG;	 nExp;	 nProp;	 Time
+MPRGP;	 1;	 1330;	 390;	 463;	 3;	 2.1553
+Relative error on the solution =4.895400e-01
+MPRGPp;	 1;	 620;	 115;	 248;	 8;	 0.959368
+Relative error on the solution =4.580805e-01
+Alg:	 info	   nHess	  nProj	  nBack  nIter	  Time
+BoxVABBmin	 0  191	   191	   8	  190	 0.209954
+Relative error on the solution =5.572681e-01
+
+BQP8
+Alg;	 Solved;	 nHess;	 nCG;	 nExp;	 nProp;	 Time
+MPRGP;	 1;	 3063;	 314;	 1368;	 2;	 4.62979
+Relative error on the solution =5.019155e-01
+MPRGPp;	 1;	 775;	 249;	 261;	 3;	 1.1831
+Relative error on the solution =4.731913e-01
+Alg:	 info	   nHess	  nProj	  nBack  nIter	  Time
+BoxVABBmin	 0  252	   252	   12	  251	 0.264612
+Relative error on the solution =5.480084e-01
+
+BQP9
+Alg;	 Solved;	 nHess;	 nCG;	 nExp;	 nProp;	 Time
+MPRGP;	 1;	 3648;	 138;	 1749;	 1;	 4.85508
+Relative error on the solution =5.108789e-01
+MPRGPp;	 1;	 964;	 224;	 368;	 3;	 1.30081
+Relative error on the solution =4.724986e-01
+Alg:	 info	   nHess	  nProj	  nBack  nIter	  Time
+BoxVABBmin	 0  207	   207	   12	  206	 0.216771
+Relative error on the solution =5.121355e-01
+
+BQP10
+Alg;	 Solved;	 nHess;	 nCG;	 nExp;	 nProp;	 Time
+MPRGP;	 1;	 1689;	 278;	 698;	 4;	 2.68648
+Relative error on the solution =1.105642e-01
+MPRGPp;	 1;	 640;	 210;	 210;	 9;	 1.00852
+Relative error on the solution =7.602075e-02
+Alg:	 info	   nHess	  nProj	  nBack  nIter	  Time
+BoxVABBmin	 0  235	   235	   11	  234	 0.245198
+Relative error on the solution =6.948332e-02
+
+BQP11
+Alg;	 Solved;	 nHess;	 nCG;	 nExp;	 nProp;	 Time
+MPRGP;	 1;	 3267;	 167;	 1543;	 3;	 4.28138
+Relative error on the solution =1.051663e-01
+MPRGPp;	 1;	 721;	 91;	 313;	 3;	 0.878783
+Relative error on the solution =9.562320e-02
+Alg:	 info	   nHess	  nProj	  nBack  nIter	  Time
+BoxVABBmin	 0  193	   193	   13	  192	 0.204652
+Relative error on the solution =1.146406e-01
+
+BQP12
+Alg;	 Solved;	 nHess;	 nCG;	 nExp;	 nProp;	 Time
+MPRGP;	 1;	 3399;	 47;	 1667;	 7;	 4.03958
+Relative error on the solution =1.155180e-01
+MPRGPp;	 1;	 1913;	 6;	 951;	 4;	 1.91602
+Relative error on the solution =7.730296e-02
+Alg:	 info	   nHess	  nProj	  nBack  nIter	  Time
+BoxVABBmin	 0  198	   198	   11	  197	 0.20951
+Relative error on the solution =1.214424e-01
+
+BQP13
+Alg;	 Solved;	 nHess;	 nCG;	 nExp;	 nProp;	 Time
+MPRGP;	 1;	 1774;	 458;	 652;	 1;	 2.64901
+Relative error on the solution =3.154337e-01
+MPRGPp;	 1;	 569;	 154;	 203;	 8;	 0.771472
+Relative error on the solution =3.069094e-01
+Alg:	 info	   nHess	  nProj	  nBack  nIter	  Time
+BoxVABBmin	 0  217	   217	   12	  216	 0.223365
+Relative error on the solution =3.565197e-01
+
+BQP14
+Alg;	 Solved;	 nHess;	 nCG;	 nExp;	 nProp;	 Time
+MPRGP;	 1;	 3187;	 259;	 1456;	 5;	 4.60855
+Relative error on the solution =3.517273e-01
+MPRGPp;	 1;	 847;	 217;	 313;	 3;	 1.25443
+Relative error on the solution =2.668044e-01
+Alg:	 info	   nHess	  nProj	  nBack  nIter	  Time
+BoxVABBmin	 0  220	   220	   13	  219	 0.233628
+Relative error on the solution =3.834681e-01
+
+BQP15
+Alg;	 Solved;	 nHess;	 nCG;	 nExp;	 nProp;	 Time
+MPRGP;	 1;	 3924;	 192;	 1859;	 3;	 5.05384
+Relative error on the solution =3.470354e-01
+MPRGPp;	 1;	 988;	 147;	 419;	 2;	 1.11092
+Relative error on the solution =3.392820e-01
+Alg:	 info	   nHess	  nProj	  nBack  nIter	  Time
+BoxVABBmin	 0  242	   242	   11	  241	 0.247796
+Relative error on the solution =3.668606e-01
+
+BQP16
+Alg;	 Solved;	 nHess;	 nCG;	 nExp;	 nProp;	 Time
+MPRGP;	 1;	 1082;	 301;	 384;	 2;	 1.64281
+Relative error on the solution =5.100970e-01
+MPRGPp;	 1;	 570;	 157;	 202;	 8;	 0.781653
+Relative error on the solution =5.006534e-01
+Alg:	 info	   nHess	  nProj	  nBack  nIter	  Time
+BoxVABBmin	 0  205	   205	   10	  204	 0.21377
+Relative error on the solution =5.496449e-01
+
+BQP17
+Alg;	 Solved;	 nHess;	 nCG;	 nExp;	 nProp;	 Time
+MPRGP;	 1;	 2245;	 270;	 980;	 4;	 3.38484
+Relative error on the solution =5.138310e-01
+MPRGPp;	 1;	 915;	 208;	 351;	 4;	 1.35727
+Relative error on the solution =4.768352e-01
+Alg:	 info	   nHess	  nProj	  nBack  nIter	  Time
+BoxVABBmin	 0  253	   253	   14	  252	 0.266102
+Relative error on the solution =5.318406e-01
+
+BQP18
+Alg;	 Solved;	 nHess;	 nCG;	 nExp;	 nProp;	 Time
+MPRGP;	 1;	 3153;	 336;	 1402;	 2;	 4.21455
+Relative error on the solution =4.957759e-01
+MPRGPp;	 1;	 760;	 98;	 328;	 5;	 0.864169
+Relative error on the solution =4.294332e-01
+Alg:	 info	   nHess	  nProj	  nBack  nIter	  Time
+BoxVABBmin	 0  194	   194	   9	  193	 0.199818
+Relative error on the solution =5.352758e-01
+
+BQP19
+Alg;	 Solved;	 nHess;	 nCG;	 nExp;	 nProp;	 Time
+MPRGP;	 1;	 1681;	 251;	 708;	 3;	 2.37068
+Relative error on the solution =1.217406e-01
+MPRGPp;	 1;	 744;	 147;	 293;	 10;	 0.964996
+Relative error on the solution =5.896025e-02
+Alg:	 info	   nHess	  nProj	  nBack  nIter	  Time
+BoxVABBmin	 0  204	   204	   13	  203	 0.20856
+Relative error on the solution =7.526857e-02
+
+BQP20
+Alg;	 Solved;	 nHess;	 nCG;	 nExp;	 nProp;	 Time
+MPRGP;	 1;	 3118;	 242;	 1431;	 3;	 4.13718
+Relative error on the solution =1.099387e-01
+MPRGPp;	 1;	 1091;	 171;	 458;	 3;	 1.3053
+Relative error on the solution =9.075136e-02
+Alg:	 info	   nHess	  nProj	  nBack  nIter	  Time
+BoxVABBmin	 0  191	   191	   10	  190	 0.192852
+Relative error on the solution =6.843460e-02
+
+BQP21
+Alg;	 Solved;	 nHess;	 nCG;	 nExp;	 nProp;	 Time
+MPRGP;	 1;	 3329;	 101;	 1608;	 1;	 4.01142
+Relative error on the solution =1.224748e-01
+MPRGPp;	 1;	 1102;	 124;	 488;	 1;	 1.19637
+Relative error on the solution =7.147989e-02
+Alg:	 info	   nHess	  nProj	  nBack  nIter	  Time
+BoxVABBmin	 0  200	   200	   4	  199	 0.19952
+Relative error on the solution =6.562445e-02
+
+BQP22
+Alg;	 Solved;	 nHess;	 nCG;	 nExp;	 nProp;	 Time
+MPRGP;	 1;	 1446;	 305;	 564;	 2;	 2.21758
+Relative error on the solution =3.439846e-01
+MPRGPp;	 1;	 697;	 225;	 230;	 11;	 1.11087
+Relative error on the solution =2.978257e-01
+Alg:	 info	   nHess	  nProj	  nBack  nIter	  Time
+BoxVABBmin	 0  209	   209	   7	  208	 0.245988
+Relative error on the solution =3.781164e-01
+
+BQP23
+Alg;	 Solved;	 nHess;	 nCG;	 nExp;	 nProp;	 Time
+MPRGP;	 1;	 2628;	 317;	 1149;	 2;	 4.06329
+Relative error on the solution =3.560334e-01
+MPRGPp;	 1;	 893;	 179;	 354;	 5;	 1.15994
+Relative error on the solution =3.051176e-01
+Alg:	 info	   nHess	  nProj	  nBack  nIter	  Time
+BoxVABBmin	 0  249	   249	   13	  248	 0.256148
+Relative error on the solution =2.979082e-01
+
+BQP24
+Alg;	 Solved;	 nHess;	 nCG;	 nExp;	 nProp;	 Time
+MPRGP;	 1;	 3335;	 279;	 1522;	 1;	 4.32287
+Relative error on the solution =3.478564e-01
+MPRGPp;	 1;	 1649;	 27;	 808;	 5;	 1.83765
+Relative error on the solution =3.001908e-01
+Alg:	 info	   nHess	  nProj	  nBack  nIter	  Time
+BoxVABBmin	 0  241	   241	   12	  240	 0.251324
+Relative error on the solution =3.056469e-01
+
+BQP25
+Alg;	 Solved;	 nHess;	 nCG;	 nExp;	 nProp;	 Time
+MPRGP;	 1;	 1290;	 347;	 464;	 4;	 2.08592
+Relative error on the solution =5.067810e-01
+MPRGPp;	 1;	 727;	 310;	 205;	 6;	 1.07607
+Relative error on the solution =4.582139e-01
+Alg:	 info	   nHess	  nProj	  nBack  nIter	  Time
+BoxVABBmin	 0  227	   227	   9	  226	 0.235273
+Relative error on the solution =5.124010e-01
+
+BQP26
+Alg;	 Solved;	 nHess;	 nCG;	 nExp;	 nProp;	 Time
+MPRGP;	 1;	 2384;	 293;	 1036;	 8;	 3.68089
+Relative error on the solution =5.178487e-01
+MPRGPp;	 1;	 1041;	 317;	 360;	 3;	 1.58114
+Relative error on the solution =4.818725e-01
+Alg:	 info	   nHess	  nProj	  nBack  nIter	  Time
+BoxVABBmin	 0  215	   215	   10	  214	 0.223097
+Relative error on the solution =5.438908e-01
+
+BQP27
+Alg;	 Solved;	 nHess;	 nCG;	 nExp;	 nProp;	 Time
+MPRGP;	 1;	 2661;	 295;	 1177;	 1;	 3.83847
+Relative error on the solution =5.144261e-01
+MPRGPp;	 1;	 898;	 169;	 362;	 4;	 1.2357
+Relative error on the solution =4.907342e-01
+Alg:	 info	   nHess	  nProj	  nBack  nIter	  Time
+BoxVABBmin	 0  218	   218	   13	  217	 0.258196
+Relative error on the solution =5.345488e-01
+
+BQP28
+Alg;	 Solved;	 nHess;	 nCG;	 nExp;	 nProp;	 Time
+MPRGP;	 1;	 1655;	 278;	 682;	 2;	 2.6801
+Relative error on the solution =1.236618e-01
+MPRGPp;	 1;	 448;	 125;	 158;	 6;	 0.707453
+Relative error on the solution =1.151010e-01
+Alg:	 info	   nHess	  nProj	  nBack  nIter	  Time
+BoxVABBmin	 0  191	   191	   11	  190	 0.224457
+Relative error on the solution =1.366001e-01
+
+BQP29
+Alg;	 Solved;	 nHess;	 nCG;	 nExp;	 nProp;	 Time
+MPRGP;	 1;	 2730;	 234;	 1241;	 3;	 3.52838
+Relative error on the solution =1.250888e-01
+MPRGPp;	 1;	 956;	 180;	 386;	 3;	 1.03616
+Relative error on the solution =8.842299e-02
+Alg:	 info	   nHess	  nProj	  nBack  nIter	  Time
+BoxVABBmin	 0  206	   206	   14	  205	 0.205273
+Relative error on the solution =1.364601e-01
+
+BQP30
+Alg;	 Solved;	 nHess;	 nCG;	 nExp;	 nProp;	 Time
+MPRGP;	 1;	 3166;	 116;	 1519;	 1;	 3.3948
+Relative error on the solution =1.249635e-01
+MPRGPp;	 1;	 758;	 87;	 334;	 2;	 0.873649
+Relative error on the solution =9.682713e-02
+Alg:	 info	   nHess	  nProj	  nBack  nIter	  Time
+BoxVABBmin	 0  214	   214	   12	  213	 0.230175
+Relative error on the solution =9.757722e-02
+
+BQP31
+Alg;	 Solved;	 nHess;	 nCG;	 nExp;	 nProp;	 Time
+MPRGP;	 1;	 1510;	 346;	 575;	 3;	 2.24386
+Relative error on the solution =3.475652e-01
+MPRGPp;	 1;	 748;	 287;	 226;	 8;	 1.06821
+Relative error on the solution =2.966444e-01
+Alg:	 info	   nHess	  nProj	  nBack  nIter	  Time
+BoxVABBmin	 0  234	   234	   9	  233	 0.222059
+Relative error on the solution =3.516544e-01
+
+BQP32
+Alg;	 Solved;	 nHess;	 nCG;	 nExp;	 nProp;	 Time
+MPRGP;	 1;	 2599;	 336;	 1125;	 2;	 3.95791
+Relative error on the solution =3.488831e-01
+MPRGPp;	 1;	 769;	 168;	 298;	 4;	 1.0957
+Relative error on the solution =3.333973e-01
+Alg:	 info	   nHess	  nProj	  nBack  nIter	  Time
+BoxVABBmin	 0  251	   251	   9	  250	 0.311246
+Relative error on the solution =3.591842e-01
+
+BQP33
+Alg;	 Solved;	 nHess;	 nCG;	 nExp;	 nProp;	 Time
+MPRGP;	 1;	 3368;	 228;	 1564;	 1;	 4.17435
+Relative error on the solution =3.584086e-01
+MPRGPp;	 1;	 882;	 243;	 318;	 2;	 1.0465
+Relative error on the solution =3.041083e-01
+Alg:	 info	   nHess	  nProj	  nBack  nIter	  Time
+BoxVABBmin	 0  210	   210	   16	  209	 0.218985
+Relative error on the solution =3.818180e-01
+
+BQP34
+Alg;	 Solved;	 nHess;	 nCG;	 nExp;	 nProp;	 Time
+MPRGP;	 1;	 1368;	 407;	 474;	 2;	 2.13487
+Relative error on the solution =4.899665e-01
+MPRGPp;	 1;	 865;	 390;	 233;	 8;	 1.28494
+Relative error on the solution =4.613928e-01
+Alg:	 info	   nHess	  nProj	  nBack  nIter	  Time
+BoxVABBmin	 0  225	   225	   14	  224	 0.236476
+Relative error on the solution =5.491399e-01
+
+BQP35
+Alg;	 Solved;	 nHess;	 nCG;	 nExp;	 nProp;	 Time
+MPRGP;	 1;	 2203;	 303;	 943;	 3;	 2.841
+Relative error on the solution =5.203408e-01
+MPRGPp;	 1;	 724;	 178;	 271;	 3;	 0.835959
+Relative error on the solution =4.752367e-01
+Alg:	 info	   nHess	  nProj	  nBack  nIter	  Time
+BoxVABBmin	 0  215	   215	   11	  214	 0.197071
+Relative error on the solution =5.331374e-01
+
+BQP36
+Alg;	 Solved;	 nHess;	 nCG;	 nExp;	 nProp;	 Time
+MPRGP;	 1;	 2836;	 303;	 1260;	 2;	 3.60589
+Relative error on the solution =5.168108e-01
+MPRGPp;	 1;	 843;	 176;	 332;	 2;	 1.01962
+Relative error on the solution =4.959657e-01
+Alg:	 info	   nHess	  nProj	  nBack  nIter	  Time
+BoxVABBmin	 0  220	   220	   12	  219	 0.224854
+Relative error on the solution =5.218611e-01
+
+---------------------------------------------------------------------------
+PROBLEMS' DIMENSION: 15000
+
+BQP1
+Alg;	 Solved;	 nHess;	 nCG;	 nExp;	 nProp;	 Time
+MPRGP;	 1;	 1858;	 274;	 786;	 1;	 3.55285
+Relative error on the solution =1.046589e-01
+MPRGPp;	 1;	 761;	 210;	 270;	 10;	 1.39509
+Relative error on the solution =7.919514e-02
+Alg:	 info	   nHess	  nProj	  nBack  nIter	  Time
+BoxVABBmin	 0  210	   210	   12	  209	 0.394943
+Relative error on the solution =7.214151e-02
+
+BQP2
+Alg;	 Solved;	 nHess;	 nCG;	 nExp;	 nProp;	 Time
+MPRGP;	 1;	 3374;	 102;	 1629;	 3;	 5.5477
+Relative error on the solution =9.622019e-02
+MPRGPp;	 1;	 949;	 38;	 454;	 2;	 1.55143
+Relative error on the solution =7.022497e-02
+Alg:	 info	   nHess	  nProj	  nBack  nIter	  Time
+BoxVABBmin	 0  225	   225	   9	  224	 0.340708
+Relative error on the solution =6.067240e-02
+
+BQP3
+Alg;	 Solved;	 nHess;	 nCG;	 nExp;	 nProp;	 Time
+MPRGP;	 1;	 3976;	 7;	 1978;	 2;	 5.58976
+Relative error on the solution =7.822327e-02
+MPRGPp;	 1;	 1631;	 4;	 811;	 4;	 1.99195
+Relative error on the solution =3.036261e-02
+Alg:	 info	   nHess	  nProj	  nBack  nIter	  Time
+BoxVABBmin	 0  193	   193	   6	  192	 0.255586
+Relative error on the solution =8.000571e-02
+
+BQP4
+Alg;	 Solved;	 nHess;	 nCG;	 nExp;	 nProp;	 Time
+MPRGP;	 1;	 1828;	 317;	 748;	 4;	 3.46767
+Relative error on the solution =3.511026e-01
+MPRGPp;	 1;	 679;	 97;	 286;	 9;	 1.17586
+Relative error on the solution =3.293847e-01
+Alg:	 info	   nHess	  nProj	  nBack  nIter	  Time
+BoxVABBmin	 0  238	   238	   9	  237	 0.317298
+Relative error on the solution =3.501208e-01
+
+BQP5
+Alg;	 Solved;	 nHess;	 nCG;	 nExp;	 nProp;	 Time
+MPRGP;	 1;	 3615;	 242;	 1680;	 2;	 5.87261
+Relative error on the solution =3.397672e-01
+MPRGPp;	 1;	 1098;	 171;	 462;	 2;	 1.74535
+Relative error on the solution =3.065595e-01
+Alg:	 info	   nHess	  nProj	  nBack  nIter	  Time
+BoxVABBmin	 0  252	   252	   12	  251	 0.351114
+Relative error on the solution =2.766240e-01
+
+BQP6
+Alg;	 Solved;	 nHess;	 nCG;	 nExp;	 nProp;	 Time
+MPRGP;	 1;	 5340;	 236;	 2545;	 3;	 8.42697
+Relative error on the solution =3.018391e-01
+MPRGPp;	 1;	 1520;	 121;	 698;	 2;	 2.07051
+Relative error on the solution =3.083385e-01
+Alg:	 info	   nHess	  nProj	  nBack  nIter	  Time
+BoxVABBmin	 0  236	   236	   9	  235	 0.316213
+Relative error on the solution =3.337013e-01
+
+BQP7
+Alg;	 Solved;	 nHess;	 nCG;	 nExp;	 nProp;	 Time
+MPRGP;	 1;	 1477;	 378;	 542;	 4;	 2.81215
+Relative error on the solution =5.082857e-01
+MPRGPp;	 1;	 641;	 227;	 204;	 5;	 1.18756
+Relative error on the solution =4.568300e-01
+Alg:	 info	   nHess	  nProj	  nBack  nIter	  Time
+BoxVABBmin	 0  242	   242	   16	  241	 0.28945
+Relative error on the solution =4.885070e-01
+
+BQP8
+Alg;	 Solved;	 nHess;	 nCG;	 nExp;	 nProp;	 Time
+MPRGP;	 1;	 3414;	 262;	 1568;	 5;	 5.7175
+Relative error on the solution =5.039531e-01
+MPRGPp;	 1;	 1011;	 284;	 360;	 6;	 1.57616
+Relative error on the solution =4.595188e-01
+Alg:	 info	   nHess	  nProj	  nBack  nIter	  Time
+BoxVABBmin	 0  245	   245	   11	  244	 0.293119
+Relative error on the solution =5.061496e-01
+
+BQP9
+Alg;	 Solved;	 nHess;	 nCG;	 nExp;	 nProp;	 Time
+MPRGP;	 1;	 3553;	 175;	 1683;	 1;	 5.82875
+Relative error on the solution =5.168429e-01
+MPRGPp;	 1;	 799;	 147;	 324;	 3;	 1.31478
+Relative error on the solution =4.977179e-01
+Alg:	 info	   nHess	  nProj	  nBack  nIter	  Time
+BoxVABBmin	 0  206	   206	   11	  205	 0.26215
+Relative error on the solution =5.521317e-01
+
+BQP10
+Alg;	 Solved;	 nHess;	 nCG;	 nExp;	 nProp;	 Time
+MPRGP;	 1;	 1853;	 246;	 797;	 2;	 3.45935
+Relative error on the solution =1.182026e-01
+MPRGPp;	 1;	 654;	 175;	 236;	 6;	 1.21786
+Relative error on the solution =6.858050e-02
+Alg:	 info	   nHess	  nProj	  nBack  nIter	  Time
+BoxVABBmin	 0  202	   202	   8	  201	 0.251503
+Relative error on the solution =9.761724e-02
+
+BQP11
+Alg;	 Solved;	 nHess;	 nCG;	 nExp;	 nProp;	 Time
+MPRGP;	 1;	 3452;	 68;	 1685;	 3;	 5.8343
+Relative error on the solution =1.148915e-01
+MPRGPp;	 1;	 1159;	 66;	 545;	 2;	 1.83976
+Relative error on the solution =8.362541e-02
+Alg:	 info	   nHess	  nProj	  nBack  nIter	  Time
+BoxVABBmin	 0  221	   221	   13	  220	 0.28945
+Relative error on the solution =9.502081e-02
+
+BQP12
+Alg;	 Solved;	 nHess;	 nCG;	 nExp;	 nProp;	 Time
+MPRGP;	 1;	 4602;	 19;	 2285;	 2;	 7.10658
+Relative error on the solution =9.243139e-02
+MPRGPp;	 1;	 2097;	 4;	 1044;	 4;	 2.70977
+Relative error on the solution =7.353669e-02
+Alg:	 info	   nHess	  nProj	  nBack  nIter	  Time
+BoxVABBmin	 0  224	   224	   12	  223	 0.275072
+Relative error on the solution =1.138435e-01
+
+BQP13
+Alg;	 Solved;	 nHess;	 nCG;	 nExp;	 nProp;	 Time
+MPRGP;	 1;	 1952;	 357;	 791;	 2;	 3.65042
+Relative error on the solution =3.384116e-01
+MPRGPp;	 1;	 738;	 155;	 285;	 12;	 1.3012
+Relative error on the solution =3.146188e-01
+Alg:	 info	   nHess	  nProj	  nBack  nIter	  Time
+BoxVABBmin	 0  237	   237	   17	  236	 0.296201
+Relative error on the solution =3.539591e-01
+
+BQP14
+Alg;	 Solved;	 nHess;	 nCG;	 nExp;	 nProp;	 Time
+MPRGP;	 1;	 3456;	 182;	 1630;	 3;	 5.83152
+Relative error on the solution =3.539841e-01
+MPRGPp;	 1;	 898;	 152;	 371;	 3;	 1.38595
+Relative error on the solution =2.817482e-01
+Alg:	 info	   nHess	  nProj	  nBack  nIter	  Time
+BoxVABBmin	 0  225	   225	   10	  224	 0.281164
+Relative error on the solution =3.706764e-01
+
+BQP15
+Alg;	 Solved;	 nHess;	 nCG;	 nExp;	 nProp;	 Time
+MPRGP;	 1;	 4790;	 258;	 2259;	 3;	 7.25181
+Relative error on the solution =3.283697e-01
+MPRGPp;	 1;	 982;	 179;	 400;	 2;	 1.38683
+Relative error on the solution =3.086000e-01
+Alg:	 info	   nHess	  nProj	  nBack  nIter	  Time
+BoxVABBmin	 0  208	   208	   10	  207	 0.271533
+Relative error on the solution =3.555528e-01
+
+BQP16
+Alg;	 Solved;	 nHess;	 nCG;	 nExp;	 nProp;	 Time
+MPRGP;	 1;	 1503;	 323;	 582;	 5;	 2.88495
+Relative error on the solution =5.091864e-01
+MPRGPp;	 1;	 1011;	 505;	 250;	 5;	 2.0251
+Relative error on the solution =4.428034e-01
+Alg:	 info	   nHess	  nProj	  nBack  nIter	  Time
+BoxVABBmin	 0  216	   216	   11	  215	 0.261995
+Relative error on the solution =5.462434e-01
+
+BQP17
+Alg;	 Solved;	 nHess;	 nCG;	 nExp;	 nProp;	 Time
+MPRGP;	 1;	 2650;	 273;	 1182;	 2;	 4.54259
+Relative error on the solution =5.118931e-01
+MPRGPp;	 1;	 718;	 102;	 305;	 5;	 1.11063
+Relative error on the solution =4.776742e-01
+Alg:	 info	   nHess	  nProj	  nBack  nIter	  Time
+BoxVABBmin	 0  200	   200	   14	  199	 0.245032
+Relative error on the solution =5.419479e-01
+
+BQP18
+Alg;	 Solved;	 nHess;	 nCG;	 nExp;	 nProp;	 Time
+MPRGP;	 1;	 3444;	 183;	 1624;	 2;	 5.38729
+Relative error on the solution =5.065568e-01
+MPRGPp;	 1;	 1180;	 245;	 466;	 2;	 1.8068
+Relative error on the solution =4.566510e-01
+Alg:	 info	   nHess	  nProj	  nBack  nIter	  Time
+BoxVABBmin	 0  273	   273	   14	  272	 0.332487
+Relative error on the solution =5.286629e-01
+
+BQP19
+Alg;	 Solved;	 nHess;	 nCG;	 nExp;	 nProp;	 Time
+MPRGP;	 1;	 1750;	 273;	 732;	 2;	 3.21894
+Relative error on the solution =1.291902e-01
+MPRGPp;	 1;	 772;	 75;	 344;	 8;	 1.14124
+Relative error on the solution =8.323074e-02
+Alg:	 info	   nHess	  nProj	  nBack  nIter	  Time
+BoxVABBmin	 0  221	   221	   12	  220	 0.252407
+Relative error on the solution =5.649794e-02
+
+BQP20
+Alg;	 Solved;	 nHess;	 nCG;	 nExp;	 nProp;	 Time
+MPRGP;	 1;	 3269;	 71;	 1591;	 5;	 4.72501
+Relative error on the solution =1.247189e-01
+MPRGPp;	 1;	 1027;	 83;	 470;	 3;	 1.3545
+Relative error on the solution =9.037197e-02
+Alg:	 info	   nHess	  nProj	  nBack  nIter	  Time
+BoxVABBmin	 0  183	   183	   6	  182	 0.207766
+Relative error on the solution =1.087350e-01
+
+BQP21
+Alg;	 Solved;	 nHess;	 nCG;	 nExp;	 nProp;	 Time
+MPRGP;	 1;	 3638;	 0;	 1813;	 1;	 5.67722
+Relative error on the solution =1.233776e-01
+MPRGPp;	 1;	 1824;	 7;	 906;	 4;	 2.42004
+Relative error on the solution =9.068794e-02
+Alg:	 info	   nHess	  nProj	  nBack  nIter	  Time
+BoxVABBmin	 0  195	   195	   8	  194	 0.247252
+Relative error on the solution =1.269089e-01
+
+BQP22
+Alg;	 Solved;	 nHess;	 nCG;	 nExp;	 nProp;	 Time
+MPRGP;	 1;	 1725;	 330;	 691;	 2;	 3.27032
+Relative error on the solution =3.536874e-01
+MPRGPp;	 1;	 777;	 143;	 312;	 9;	 1.34336
+Relative error on the solution =3.130027e-01
+Alg:	 info	   nHess	  nProj	  nBack  nIter	  Time
+BoxVABBmin	 0  216	   216	   14	  215	 0.266235
+Relative error on the solution =3.684469e-01
+
+BQP23
+Alg;	 Solved;	 nHess;	 nCG;	 nExp;	 nProp;	 Time
+MPRGP;	 1;	 3489;	 219;	 1628;	 3;	 5.79668
+Relative error on the solution =3.504280e-01
+MPRGPp;	 1;	 1036;	 196;	 418;	 3;	 1.62679
+Relative error on the solution =3.310662e-01
+Alg:	 info	   nHess	  nProj	  nBack  nIter	  Time
+BoxVABBmin	 0  223	   223	   14	  222	 0.277414
+Relative error on the solution =3.541771e-01
+
+BQP24
+Alg;	 Solved;	 nHess;	 nCG;	 nExp;	 nProp;	 Time
+MPRGP;	 1;	 3685;	 184;	 1744;	 2;	 5.77973
+Relative error on the solution =3.592287e-01
+MPRGPp;	 1;	 1083;	 28;	 525;	 4;	 1.45448
+Relative error on the solution =3.253202e-01
+Alg:	 info	   nHess	  nProj	  nBack  nIter	  Time
+BoxVABBmin	 0  221	   221	   6	  220	 0.297038
+Relative error on the solution =3.991590e-01
+
+BQP25
+Alg;	 Solved;	 nHess;	 nCG;	 nExp;	 nProp;	 Time
+MPRGP;	 1;	 1470;	 393;	 532;	 2;	 2.82908
+Relative error on the solution =5.079077e-01
+MPRGPp;	 1;	 508;	 141;	 180;	 6;	 0.920384
+Relative error on the solution =4.829080e-01
+Alg:	 info	   nHess	  nProj	  nBack  nIter	  Time
+BoxVABBmin	 0  229	   229	   12	  228	 0.287837
+Relative error on the solution =5.505194e-01
+
+BQP26
+Alg;	 Solved;	 nHess;	 nCG;	 nExp;	 nProp;	 Time
+MPRGP;	 1;	 2737;	 296;	 1214;	 2;	 4.77843
+Relative error on the solution =5.090728e-01
+MPRGPp;	 1;	 838;	 166;	 334;	 3;	 1.34163
+Relative error on the solution =4.575742e-01
+Alg:	 info	   nHess	  nProj	  nBack  nIter	  Time
+BoxVABBmin	 0  218	   218	   14	  217	 0.285773
+Relative error on the solution =5.180085e-01
+
+BQP27
+Alg;	 Solved;	 nHess;	 nCG;	 nExp;	 nProp;	 Time
+MPRGP;	 1;	 3611;	 184;	 1706;	 4;	 6.11727
+Relative error on the solution =5.142691e-01
+MPRGPp;	 1;	 727;	 193;	 265;	 3;	 1.15509
+Relative error on the solution =4.923350e-01
+Alg:	 info	   nHess	  nProj	  nBack  nIter	  Time
+BoxVABBmin	 0  213	   213	   11	  212	 0.301514
+Relative error on the solution =6.069002e-01
+
+BQP28
+Alg;	 Solved;	 nHess;	 nCG;	 nExp;	 nProp;	 Time
+MPRGP;	 1;	 2067;	 311;	 871;	 3;	 3.90167
+Relative error on the solution =9.339446e-02
+MPRGPp;	 1;	 703;	 72;	 310;	 10;	 1.22262
+Relative error on the solution =7.685839e-02
+Alg:	 info	   nHess	  nProj	  nBack  nIter	  Time
+BoxVABBmin	 0  182	   182	   7	  181	 0.228348
+Relative error on the solution =1.146219e-01
+
+BQP29
+Alg;	 Solved;	 nHess;	 nCG;	 nExp;	 nProp;	 Time
+MPRGP;	 1;	 3103;	 141;	 1474;	 3;	 5.10024
+Relative error on the solution =1.243628e-01
+MPRGPp;	 1;	 796;	 86;	 353;	 3;	 1.13406
+Relative error on the solution =1.010055e-01
+Alg:	 info	   nHess	  nProj	  nBack  nIter	  Time
+BoxVABBmin	 0  199	   199	   4	  198	 0.267299
+Relative error on the solution =9.031264e-02
+
+BQP30
+Alg;	 Solved;	 nHess;	 nCG;	 nExp;	 nProp;	 Time
+MPRGP;	 1;	 3631;	 27;	 1795;	 3;	 5.4402
+Relative error on the solution =1.269391e-01
+MPRGPp;	 1;	 1217;	 121;	 546;	 3;	 1.64103
+Relative error on the solution =7.390976e-02
+Alg:	 info	   nHess	  nProj	  nBack  nIter	  Time
+BoxVABBmin	 0  198	   198	   12	  197	 0.261374
+Relative error on the solution =1.224577e-01
+
+BQP31
+Alg;	 Solved;	 nHess;	 nCG;	 nExp;	 nProp;	 Time
+MPRGP;	 1;	 1683;	 294;	 688;	 2;	 3.24961
+Relative error on the solution =3.504607e-01
+MPRGPp;	 1;	 487;	 161;	 160;	 5;	 0.941829
+Relative error on the solution =3.040026e-01
+Alg:	 info	   nHess	  nProj	  nBack  nIter	  Time
+BoxVABBmin	 0  250	   250	   12	  249	 0.341452
+Relative error on the solution =3.652807e-01
+
+BQP32
+Alg;	 Solved;	 nHess;	 nCG;	 nExp;	 nProp;	 Time
+MPRGP;	 1;	 2978;	 311;	 1327;	 2;	 5.40494
+Relative error on the solution =3.493951e-01
+MPRGPp;	 1;	 890;	 183;	 351;	 4;	 1.56639
+Relative error on the solution =2.954205e-01
+Alg:	 info	   nHess	  nProj	  nBack  nIter	  Time
+BoxVABBmin	 0  227	   227	   13	  226	 0.289537
+Relative error on the solution =3.672367e-01
+
+BQP33
+Alg;	 Solved;	 nHess;	 nCG;	 nExp;	 nProp;	 Time
+MPRGP;	 1;	 3741;	 238;	 1745;	 2;	 6.42378
+Relative error on the solution =3.551336e-01
+MPRGPp;	 1;	 1317;	 164;	 575;	 2;	 2.08039
+Relative error on the solution =3.121617e-01
+Alg:	 info	   nHess	  nProj	  nBack  nIter	  Time
+BoxVABBmin	 0  282	   282	   16	  281	 0.365512
+Relative error on the solution =3.649726e-01
+
+BQP34
+Alg;	 Solved;	 nHess;	 nCG;	 nExp;	 nProp;	 Time
+MPRGP;	 1;	 1260;	 306;	 470;	 3;	 2.49824
+Relative error on the solution =5.128789e-01
+MPRGPp;	 1;	 636;	 116;	 255;	 9;	 1.1907
+Relative error on the solution =4.930999e-01
+Alg:	 info	   nHess	  nProj	  nBack  nIter	  Time
+BoxVABBmin	 0  221	   221	   14	  220	 0.31414
+Relative error on the solution =5.468787e-01
+
+BQP35
+Alg;	 Solved;	 nHess;	 nCG;	 nExp;	 nProp;	 Time
+MPRGP;	 1;	 2489;	 354;	 1061;	 2;	 4.53
+Relative error on the solution =5.042488e-01
+MPRGPp;	 1;	 1029;	 100;	 462;	 4;	 1.61204
+Relative error on the solution =5.007473e-01
+Alg:	 info	   nHess	  nProj	  nBack  nIter	  Time
+BoxVABBmin	 0  246	   246	   16	  245	 0.302829
+Relative error on the solution =5.434854e-01
+
+BQP36
+Alg;	 Solved;	 nHess;	 nCG;	 nExp;	 nProp;	 Time
+MPRGP;	 1;	 3539;	 275;	 1626;	 1;	 6.10821
+Relative error on the solution =5.042228e-01
+MPRGPp;	 1;	 798;	 176;	 309;	 3;	 1.35373
+Relative error on the solution =4.868205e-01
+Alg:	 info	   nHess	  nProj	  nBack  nIter	  Time
+BoxVABBmin	 0  185	   185	   8	  184	 0.241563
+Relative error on the solution =5.329384e-01
+
+---------------------------------------------------------------------------
+PROBLEMS' DIMENSION: 25000
+
+BQP1
+Alg;	 Solved;	 nHess;	 nCG;	 nExp;	 nProp;	 Time
+MPRGP;	 1;	 2076;	 257;	 903;	 2;	 4.67985
+Relative error on the solution =1.153161e-01
+MPRGPp;	 1;	 841;	 198;	 318;	 6;	 1.88107
+Relative error on the solution =9.060531e-02
+Alg:	 info	   nHess	  nProj	  nBack  nIter	  Time
+BoxVABBmin	 0  188	   188	   9	  187	 0.364789
+Relative error on the solution =9.846803e-02
+
+BQP2
+Alg;	 Solved;	 nHess;	 nCG;	 nExp;	 nProp;	 Time
+MPRGP;	 1;	 3688;	 23;	 1826;	 2;	 6.41042
+Relative error on the solution =9.434793e-02
+MPRGPp;	 1;	 1054;	 62;	 494;	 3;	 1.7639
+Relative error on the solution =7.818541e-02
+Alg:	 info	   nHess	  nProj	  nBack  nIter	  Time
+BoxVABBmin	 0  191	   191	   8	  190	 0.305895
+Relative error on the solution =8.174797e-02
+
+BQP3
+Alg;	 Solved;	 nHess;	 nCG;	 nExp;	 nProp;	 Time
+MPRGP;	 1;	 4265;	 0;	 2125;	 4;	 7.06996
+Relative error on the solution =7.618293e-02
+MPRGPp;	 1;	 2293;	 5;	 1142;	 3;	 3.46188
+Relative error on the solution =3.453231e-02
+Alg:	 info	   nHess	  nProj	  nBack  nIter	  Time
+BoxVABBmin	 0  219	   219	   5	  218	 0.32052
+Relative error on the solution =5.175512e-02
+
+BQP4
+Alg;	 Solved;	 nHess;	 nCG;	 nExp;	 nProp;	 Time
+MPRGP;	 1;	 2146;	 372;	 880;	 3;	 4.73339
+Relative error on the solution =3.483072e-01
+MPRGPp;	 1;	 874;	 128;	 367;	 11;	 1.84871
+Relative error on the solution =2.892208e-01
+Alg:	 info	   nHess	  nProj	  nBack  nIter	  Time
+BoxVABBmin	 0  225	   225	   11	  224	 0.369717
+Relative error on the solution =3.308833e-01
+
+BQP5
+Alg;	 Solved;	 nHess;	 nCG;	 nExp;	 nProp;	 Time
+MPRGP;	 1;	 4128;	 168;	 1973;	 3;	 8.35848
+Relative error on the solution =3.378630e-01
+MPRGPp;	 1;	 1339;	 91;	 622;	 3;	 2.42772
+Relative error on the solution =2.977007e-01
+Alg:	 info	   nHess	  nProj	  nBack  nIter	  Time
+BoxVABBmin	 0  218	   218	   11	  217	 0.338458
+Relative error on the solution =3.337988e-01
+
+BQP6
+Alg;	 Solved;	 nHess;	 nCG;	 nExp;	 nProp;	 Time
+MPRGP;	 1;	 4710;	 14;	 2342;	 1;	 7.93645
+Relative error on the solution =3.378951e-01
+MPRGPp;	 1;	 844;	 61;	 390;	 2;	 1.23692
+Relative error on the solution =2.734791e-01
+Alg:	 info	   nHess	  nProj	  nBack  nIter	  Time
+BoxVABBmin	 0  220	   220	   11	  219	 0.302275
+Relative error on the solution =3.618682e-01
+
+BQP7
+Alg;	 Solved;	 nHess;	 nCG;	 nExp;	 nProp;	 Time
+MPRGP;	 1;	 1579;	 382;	 592;	 2;	 3.4077
+Relative error on the solution =5.081879e-01
+MPRGPp;	 1;	 819;	 294;	 259;	 6;	 1.84484
+Relative error on the solution =4.711072e-01
+Alg:	 info	   nHess	  nProj	  nBack  nIter	  Time
+BoxVABBmin	 0  236	   236	   11	  235	 0.325995
+Relative error on the solution =5.380313e-01
+
+BQP8
+Alg;	 Solved;	 nHess;	 nCG;	 nExp;	 nProp;	 Time
+MPRGP;	 1;	 3956;	 108;	 1917;	 3;	 7.59678
+Relative error on the solution =5.088427e-01
+MPRGPp;	 1;	 831;	 198;	 315;	 2;	 1.43733
+Relative error on the solution =4.801186e-01
+Alg:	 info	   nHess	  nProj	  nBack  nIter	  Time
+BoxVABBmin	 0  202	   202	   13	  201	 0.295153
+Relative error on the solution =5.406082e-01
+
+BQP9
+Alg;	 Solved;	 nHess;	 nCG;	 nExp;	 nProp;	 Time
+MPRGP;	 1;	 4472;	 0;	 2230;	 1;	 8.34065
+Relative error on the solution =5.137872e-01
+MPRGPp;	 1;	 1481;	 100;	 688;	 4;	 2.39224
+Relative error on the solution =4.519740e-01
+Alg:	 info	   nHess	  nProj	  nBack  nIter	  Time
+BoxVABBmin	 0  217	   217	   10	  216	 0.302948
+Relative error on the solution =5.773305e-01
+
+BQP10
+Alg;	 Solved;	 nHess;	 nCG;	 nExp;	 nProp;	 Time
+MPRGP;	 1;	 1971;	 246;	 856;	 2;	 4.13497
+Relative error on the solution =1.266525e-01
+MPRGPp;	 1;	 617;	 160;	 224;	 8;	 1.28865
+Relative error on the solution =9.863901e-02
+Alg:	 info	   nHess	  nProj	  nBack  nIter	  Time
+BoxVABBmin	 0  210	   210	   15	  209	 0.278324
+Relative error on the solution =9.734014e-02
+
+BQP11
+Alg;	 Solved;	 nHess;	 nCG;	 nExp;	 nProp;	 Time
+MPRGP;	 1;	 4007;	 92;	 1951;	 2;	 7.66201
+Relative error on the solution =9.782917e-02
+MPRGPp;	 1;	 962;	 105;	 427;	 2;	 1.7979
+Relative error on the solution =8.033094e-02
+Alg:	 info	   nHess	  nProj	  nBack  nIter	  Time
+BoxVABBmin	 0  209	   209	   12	  208	 0.301726
+Relative error on the solution =1.115347e-01
+
+BQP12
+Alg;	 Solved;	 nHess;	 nCG;	 nExp;	 nProp;	 Time
+MPRGP;	 1;	 3981;	 0;	 1984;	 2;	 6.99341
+Relative error on the solution =1.197827e-01
+MPRGPp;	 1;	 1882;	 4;	 937;	 3;	 3.02006
+Relative error on the solution =7.913491e-02
+Alg:	 info	   nHess	  nProj	  nBack  nIter	  Time
+BoxVABBmin	 0  248	   248	   9	  247	 0.363578
+Relative error on the solution =4.956436e-02
+
+BQP13
+Alg;	 Solved;	 nHess;	 nCG;	 nExp;	 nProp;	 Time
+MPRGP;	 1;	 2140;	 345;	 891;	 2;	 4.74547
+Relative error on the solution =3.438959e-01
+MPRGPp;	 1;	 810;	 57;	 371;	 10;	 1.57489
+Relative error on the solution =3.017426e-01
+Alg:	 info	   nHess	  nProj	  nBack  nIter	  Time
+BoxVABBmin	 0  208	   208	   10	  207	 0.30301
+Relative error on the solution =3.874722e-01
+
+BQP14
+Alg;	 Solved;	 nHess;	 nCG;	 nExp;	 nProp;	 Time
+MPRGP;	 1;	 3859;	 102;	 1872;	 2;	 7.30065
+Relative error on the solution =3.542845e-01
+MPRGPp;	 1;	 1191;	 183;	 502;	 3;	 1.90694
+Relative error on the solution =3.098289e-01
+Alg:	 info	   nHess	  nProj	  nBack  nIter	  Time
+BoxVABBmin	 0  277	   277	   13	  276	 0.344175
+Relative error on the solution =3.474664e-01
+
+BQP15
+Alg;	 Solved;	 nHess;	 nCG;	 nExp;	 nProp;	 Time
+MPRGP;	 1;	 4109;	 20;	 2038;	 2;	 6.77628
+Relative error on the solution =3.539654e-01
+MPRGPp;	 1;	 1250;	 112;	 567;	 3;	 2.01122
+Relative error on the solution =3.239216e-01
+Alg:	 info	   nHess	  nProj	  nBack  nIter	  Time
+BoxVABBmin	 0  198	   198	   9	  197	 0.275841
+Relative error on the solution =3.850185e-01
+
+BQP16
+Alg;	 Solved;	 nHess;	 nCG;	 nExp;	 nProp;	 Time
+MPRGP;	 1;	 1822;	 399;	 705;	 2;	 4.07473
+Relative error on the solution =5.107571e-01
+MPRGPp;	 1;	 848;	 374;	 234;	 5;	 2.02669
+Relative error on the solution =4.749695e-01
+Alg:	 info	   nHess	  nProj	  nBack  nIter	  Time
+BoxVABBmin	 0  218	   218	   11	  217	 0.323358
+Relative error on the solution =5.351837e-01
+
+BQP17
+Alg;	 Solved;	 nHess;	 nCG;	 nExp;	 nProp;	 Time
+MPRGP;	 1;	 3131;	 344;	 1387;	 2;	 6.18227
+Relative error on the solution =5.071088e-01
+MPRGPp;	 1;	 632;	 122;	 253;	 3;	 1.19919
+Relative error on the solution =4.566128e-01
+Alg:	 info	   nHess	  nProj	  nBack  nIter	  Time
+BoxVABBmin	 0  250	   250	   16	  249	 0.351839
+Relative error on the solution =5.163535e-01
+
+BQP18
+Alg;	 Solved;	 nHess;	 nCG;	 nExp;	 nProp;	 Time
+MPRGP;	 1;	 3648;	 167;	 1734;	 2;	 6.93885
+Relative error on the solution =5.106107e-01
+MPRGPp;	 1;	 898;	 75;	 410;	 2;	 1.55824
+Relative error on the solution =4.746048e-01
+Alg:	 info	   nHess	  nProj	  nBack  nIter	  Time
+BoxVABBmin	 0  214	   214	   4	  213	 0.308614
+Relative error on the solution =5.909795e-01
+
+BQP19
+Alg;	 Solved;	 nHess;	 nCG;	 nExp;	 nProp;	 Time
+MPRGP;	 1;	 2141;	 292;	 918;	 2;	 4.52361
+Relative error on the solution =1.176535e-01
+MPRGPp;	 1;	 764;	 192;	 282;	 7;	 1.42103
+Relative error on the solution =7.574631e-02
+Alg:	 info	   nHess	  nProj	  nBack  nIter	  Time
+BoxVABBmin	 0  194	   194	   10	  193	 0.258478
+Relative error on the solution =1.345997e-01
+
+BQP20
+Alg;	 Solved;	 nHess;	 nCG;	 nExp;	 nProp;	 Time
+MPRGP;	 1;	 3686;	 24;	 1824;	 3;	 6.61082
+Relative error on the solution =1.144441e-01
+MPRGPp;	 1;	 1546;	 115;	 714;	 2;	 2.78146
+Relative error on the solution =8.751690e-02
+Alg:	 info	   nHess	  nProj	  nBack  nIter	  Time
+BoxVABBmin	 0  179	   179	   9	  178	 0.265581
+Relative error on the solution =1.223529e-01
+
+BQP21
+Alg;	 Solved;	 nHess;	 nCG;	 nExp;	 nProp;	 Time
+MPRGP;	 1;	 4113;	 0;	 2049;	 4;	 7.11044
+Relative error on the solution =1.267745e-01
+MPRGPp;	 1;	 1073;	 59;	 505;	 3;	 1.82809
+Relative error on the solution =9.666083e-02
+Alg:	 info	   nHess	  nProj	  nBack  nIter	  Time
+BoxVABBmin	 0  191	   191	   6	  190	 0.286492
+Relative error on the solution =8.001317e-02
+
+BQP22
+Alg;	 Solved;	 nHess;	 nCG;	 nExp;	 nProp;	 Time
+MPRGP;	 1;	 2133;	 372;	 874;	 2;	 4.78252
+Relative error on the solution =3.491965e-01
+MPRGPp;	 1;	 550;	 131;	 205;	 8;	 1.15937
+Relative error on the solution =3.368468e-01
+Alg:	 info	   nHess	  nProj	  nBack  nIter	  Time
+BoxVABBmin	 0  251	   251	   11	  250	 0.370388
+Relative error on the solution =3.919244e-01
+
+BQP23
+Alg;	 Solved;	 nHess;	 nCG;	 nExp;	 nProp;	 Time
+MPRGP;	 1;	 3629;	 179;	 1712;	 15;	 7.14858
+Relative error on the solution =3.534425e-01
+MPRGPp;	 1;	 750;	 114;	 316;	 3;	 1.38031
+Relative error on the solution =2.844379e-01
+Alg:	 info	   nHess	  nProj	  nBack  nIter	  Time
+BoxVABBmin	 0  223	   223	   9	  222	 0.32755
+Relative error on the solution =3.567066e-01
+
+BQP24
+Alg;	 Solved;	 nHess;	 nCG;	 nExp;	 nProp;	 Time
+MPRGP;	 1;	 4263;	 0;	 2124;	 4;	 7.82135
+Relative error on the solution =3.549288e-01
+MPRGPp;	 1;	 1358;	 94;	 630;	 3;	 2.20338
+Relative error on the solution =2.830518e-01
+Alg:	 info	   nHess	  nProj	  nBack  nIter	  Time
+BoxVABBmin	 0  222	   222	   8	  221	 0.295061
+Relative error on the solution =3.645350e-01
+
+BQP25
+Alg;	 Solved;	 nHess;	 nCG;	 nExp;	 nProp;	 Time
+MPRGP;	 1;	 1472;	 353;	 553;	 2;	 3.25013
+Relative error on the solution =5.059473e-01
+MPRGPp;	 1;	 648;	 259;	 191;	 6;	 1.45907
+Relative error on the solution =4.945754e-01
+Alg:	 info	   nHess	  nProj	  nBack  nIter	  Time
+BoxVABBmin	 0  222	   222	   9	  221	 0.29586
+Relative error on the solution =5.604042e-01
+
+BQP26
+Alg;	 Solved;	 nHess;	 nCG;	 nExp;	 nProp;	 Time
+MPRGP;	 1;	 3196;	 315;	 1433;	 4;	 6.47673
+Relative error on the solution =5.118927e-01
+MPRGPp;	 1;	 875;	 267;	 302;	 3;	 1.77254
+Relative error on the solution =4.867517e-01
+Alg:	 info	   nHess	  nProj	  nBack  nIter	  Time
+BoxVABBmin	 0  249	   249	   13	  248	 0.384865
+Relative error on the solution =5.559296e-01
+
+BQP27
+Alg;	 Solved;	 nHess;	 nCG;	 nExp;	 nProp;	 Time
+MPRGP;	 1;	 3715;	 102;	 1800;	 2;	 7.01701
+Relative error on the solution =5.180978e-01
+MPRGPp;	 1;	 1138;	 245;	 445;	 2;	 1.9833
+Relative error on the solution =4.758716e-01
+Alg:	 info	   nHess	  nProj	  nBack  nIter	  Time
+BoxVABBmin	 0  204	   204	   10	  203	 0.278565
+Relative error on the solution =5.938130e-01
+
+BQP28
+Alg;	 Solved;	 nHess;	 nCG;	 nExp;	 nProp;	 Time
+MPRGP;	 1;	 2088;	 239;	 918;	 2;	 4.13028
+Relative error on the solution =1.219535e-01
+MPRGPp;	 1;	 859;	 258;	 298;	 4;	 1.65748
+Relative error on the solution =6.712899e-02
+Alg:	 info	   nHess	  nProj	  nBack  nIter	  Time
+BoxVABBmin	 0  215	   215	   10	  214	 0.305708
+Relative error on the solution =8.829779e-02
+
+BQP29
+Alg;	 Solved;	 nHess;	 nCG;	 nExp;	 nProp;	 Time
+MPRGP;	 1;	 3802;	 202;	 1792;	 5;	 7.46471
+Relative error on the solution =1.025419e-01
+MPRGPp;	 1;	 1359;	 136;	 610;	 2;	 2.61033
+Relative error on the solution =8.867284e-02
+Alg:	 info	   nHess	  nProj	  nBack  nIter	  Time
+BoxVABBmin	 0  210	   210	   13	  209	 0.308767
+Relative error on the solution =1.272585e-01
+
+BQP30
+Alg;	 Solved;	 nHess;	 nCG;	 nExp;	 nProp;	 Time
+MPRGP;	 1;	 4516;	 28;	 2238;	 1;	 7.68278
+Relative error on the solution =1.012164e-01
+MPRGPp;	 1;	 1759;	 3;	 876;	 3;	 2.7044
+Relative error on the solution =8.597314e-02
+Alg:	 info	   nHess	  nProj	  nBack  nIter	  Time
+BoxVABBmin	 0  231	   231	   10	  230	 0.326688
+Relative error on the solution =1.311202e-01
+
+BQP31
+Alg;	 Solved;	 nHess;	 nCG;	 nExp;	 nProp;	 Time
+MPRGP;	 1;	 1947;	 307;	 813;	 3;	 4.23204
+Relative error on the solution =3.546005e-01
+MPRGPp;	 1;	 746;	 280;	 231;	 3;	 1.67752
+Relative error on the solution =2.840217e-01
+Alg:	 info	   nHess	  nProj	  nBack  nIter	  Time
+BoxVABBmin	 0  267	   267	   10	  266	 0.394638
+Relative error on the solution =3.509120e-01
+
+BQP32
+Alg;	 Solved;	 nHess;	 nCG;	 nExp;	 nProp;	 Time
+MPRGP;	 1;	 3276;	 407;	 1418;	 22;	 6.45559
+Relative error on the solution =4.091292e-01
+MPRGPp;	 1;	 1255;	 208;	 521;	 4;	 2.36422
+Relative error on the solution =3.056022e-01
+Alg:	 info	   nHess	  nProj	  nBack  nIter	  Time
+BoxVABBmin	 0  236	   236	   11	  235	 0.324197
+Relative error on the solution =3.722927e-01
+
+BQP33
+Alg;	 Solved;	 nHess;	 nCG;	 nExp;	 nProp;	 Time
+MPRGP;	 1;	 4312;	 258;	 2020;	 3;	 7.51875
+Relative error on the solution =3.365370e-01
+MPRGPp;	 1;	 1401;	 39;	 679;	 3;	 2.30903
+Relative error on the solution =3.263356e-01
+Alg:	 info	   nHess	  nProj	  nBack  nIter	  Time
+BoxVABBmin	 0  235	   235	   11	  234	 0.327036
+Relative error on the solution =3.705040e-01
+
+BQP34
+Alg;	 Solved;	 nHess;	 nCG;	 nExp;	 nProp;	 Time
+MPRGP;	 1;	 1449;	 332;	 552;	 2;	 3.33424
+Relative error on the solution =5.059882e-01
+MPRGPp;	 1;	 786;	 380;	 200;	 5;	 1.98782
+Relative error on the solution =4.475102e-01
+Alg:	 info	   nHess	  nProj	  nBack  nIter	  Time
+BoxVABBmin	 0  212	   212	   12	  211	 0.310945
+Relative error on the solution =5.534476e-01
+
+BQP35
+Alg;	 Solved;	 nHess;	 nCG;	 nExp;	 nProp;	 Time
+MPRGP;	 1;	 3101;	 422;	 1333;	 2;	 5.87511
+Relative error on the solution =4.925513e-01
+MPRGPp;	 1;	 874;	 234;	 318;	 3;	 1.57925
+Relative error on the solution =4.807352e-01
+Alg:	 info	   nHess	  nProj	  nBack  nIter	  Time
+BoxVABBmin	 0  228	   228	   14	  227	 0.331169
+Relative error on the solution =5.343519e-01
+
+BQP36
+Alg;	 Solved;	 nHess;	 nCG;	 nExp;	 nProp;	 Time
+MPRGP;	 1;	 3360;	 238;	 1555;	 1;	 6.05192
+Relative error on the solution =5.144159e-01
+MPRGPp;	 1;	 835;	 179;	 326;	 3;	 1.45827
+Relative error on the solution =4.792618e-01
+Alg:	 info	   nHess	  nProj	  nBack  nIter	  Time
+BoxVABBmin	 0  222	   222	   8	  221	 0.312938
+Relative error on the solution =5.353631e-01
